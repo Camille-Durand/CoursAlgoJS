@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# animalJS
+Exercice CDA: Js entraînement sur les classes avec des animaux
