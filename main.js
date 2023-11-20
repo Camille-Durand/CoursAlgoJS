@@ -1,70 +1,51 @@
-class Animal {
+class Maison {
     //attributs
-    espece;
-    pattes;
-    age;
-    taille;
-    poids;
+    nom;
+    longueur;
+    largeur;
+    nbrEtage;
     //Contructeur
-    constructor(newEspece,newPattes,newTaille,newPoids) {
-        this.espece = newEspece;
-        this.pattes = newPattes;
-        this.taille = newTaille;
-        this.poids = newPoids;
+    constructor(newNom,newLongueur,newLargeur,newNbrEtage){
+        this.nom = newNom;
+        this.longueur = newLongueur;
+        this.largeur = newLargeur;
+        this.nbrEtage = newNbrEtage;
     }
 }
 
-const chien = new Animal("chien",4,50,9);
-const coq = new Animal("coq",2,40,3);
-const tigre = new Animal("tigre",4,180,180);
-const chat = new Animal("chat",4,30,5);
+const home = new Maison("",0,0,0);
 
-console.log(chien);
-console.log(coq);
-console.log(tigre);
-console.log(chat);
+function addHome() {
+    let getName = document.getElementById("nom");
+    let nameValue = getName.value;
 
-function crier() {
-    let cri = "";
+    let getLong = document.getElementById("long");
+    let longValue = getLong.value;
 
-    let getAnimalCri = document.getElementById("animalCri");
-    let animalCriValue = getAnimalCri.value;
+    let getLarg = document.getElementById("larg");
+    let largValue = getLarg.value;
 
-    if(animalCriValue == chien.espece) {
-        cri = "Ouaf!";
-    } else if (animalCriValue == coq.espece) {
-        cri = "Cocorico!";
-    } else if (animalCriValue == tigre.espece) {
-        cri = "Grrrr!";
-    } else if (animalCriValue == chat.espece) {
-        cri = "Miaou!";
-    } else if (animalCriValue == "") {
-        cri = "Pas d'animal, pas de cri";
-    } else {
-        cri = "On a pas cet animal malheureusement :(";
-    }
-    //return cri;
-    console.log(cri);
+    let getEtage = document.getElementById("etage");
+    let etageValue = getEtage.value;
+
+    home.nom = nameValue;
+    home.longueur = longValue;
+    home.largeur = largValue;
+    home.nbrEtage = etageValue;
+    console.log(home);
 }
 
-function dormir() {
-    console.log("Zzzzzzzzzzzzzzzzz");
+function calculPerimetre() {
+    let perimetre = (home.largeur+home.longueur)*2;
+    console.log("Périmètre =",perimetre,"m");
 }
 
-function addAnimal() {
-    let getSpecies = document.getElementById("species");
-    let speciesValue = getSpecies.value;
+function calculSurface() {
+    let surface = home.longueur*home.largeur;
+    console.log("Surface =",surface,"m²");
+}
 
-    let getPaws = document.getElementById("paws");
-    let pawsValue = getPaws.value;
-
-    let getHeight = document.getElementById("height");
-    let heightValue = getHeight.value;
-
-    let getWeight = document.getElementById("weight");
-    let weightValue = getWeight.value;
-
-    const nouveau = new Animal(speciesValue,pawsValue,heightValue,weightValue);
-    console.log(nouveau);
-    document.body.innerHTML = document.body.innerHTML.replace("#", "Nouvel animal ajouté!");
+function calculSurfaceEtage() {
+    let surface = (home.longueur*home.largeur)*home.nbrEtage;
+    console.log("Surface =",surface,"m²");
 }
