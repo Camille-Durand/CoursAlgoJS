@@ -1,2 +1,2 @@
-# maisonJS
-Exercice CDA: Js permettant de calculer le périmètre &amp; la surface d'une maisonnette
+# ImcJS
+Exercice CDA: Js permettant de calculer l'IMC d'une personne
