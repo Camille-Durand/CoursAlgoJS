@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# alphaWordsJS
+Exercice CDA: JS qui demande 3 mots et qui dit s'ils sont dans l'ordre alphabétique
