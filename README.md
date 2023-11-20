@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# multipliJS
+Exercice CDA: JS qui demande 2 nombres et afficher si le produit est positif ou négatif 
