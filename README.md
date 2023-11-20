@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# DomJS
+Exercice CDA: Js permettant de changer des éléments HTML
