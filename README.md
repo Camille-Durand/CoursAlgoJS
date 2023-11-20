@@ -1,2 +1,2 @@
-# animalJS
-Exercice CDA: Js entraînement sur les classes avec des animaux
+# maisonJS
+Exercice CDA: Js permettant de calculer le périmètre &amp; la surface d'une maisonnette
