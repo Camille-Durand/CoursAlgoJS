@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# bankJS
+Exercice CDA: Js permettant de gérer des comptes bancaires
