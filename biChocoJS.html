@@ -5,7 +5,11 @@
         <script src="./main.js" async></script>
         <title>BiChocoJS</title>
     </head>
-    <body onload="chocolatine()">
-        <h1>BiChocoJS</h1>
+    <body>
+        <h1>Calculer le prix à payer</h1>
+        <h3>Combien voulez-vous de chocolatines?</h3>
+        <input type="text" id="quantite" name="quantite" placeholder="Nbr de chocolatines">
+        <button onclick="calculer()">Valider</button>
+        <p id="resultat">Le prix à payer sera affiché ici!</p>
     </body>
 </html>
