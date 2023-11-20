@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# verifyAgeJS
+Exercice CDA: JS qui donne une catégorie en fonction d'un âge donné (entre 6 & 12 ans)
