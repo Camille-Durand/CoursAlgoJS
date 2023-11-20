@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# tableauJS
+Exercice CDA: Js qui demande 3 valeurs, les ajoute dans un tableau, et donne un prix TTC

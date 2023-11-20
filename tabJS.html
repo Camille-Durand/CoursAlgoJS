@@ -1,0 +1,23 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./main.js" async></script>
+        <title>TableauJS</title>
+    </head>
+    <body>
+        <form id="form">
+            <label for="article">Nom de l'article :</label>
+            <input type="text" id="article" name="article">
+            <br>
+            <label for="price">Prix de l'article (HT):</label>
+            <input type="text" id="price"name="price">
+            <br>
+            <label for="quantity">Quantité d'article:</label>
+            <input type="text" id="quantity" name="quantity">
+            <br>
+            <input type="button" id="bt"value="Valider le tout" id="bt" onclick="prixTTC()">
+        </form>
+        <h2 id="resultPrice">Prix TTC de l'article: ?€</h2>
+    </body>
+</html>
