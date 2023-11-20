@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# moyenneJS
+Exercice CDA: JS permettant de récupérer des notes et d'en affichier la moyenne
