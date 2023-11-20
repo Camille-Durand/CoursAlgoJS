@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# AlgoJS
+Exercice CDA: JS permettant de récupérer nom, prénom & adresse mail
