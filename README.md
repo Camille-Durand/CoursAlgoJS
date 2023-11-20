@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# ReTabJS
+Exercice CDA: Réutilisation de l'exo 6 (TableauJS) & remplacement des console.log/prompts
