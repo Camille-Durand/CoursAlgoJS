@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# battleJS
+Exercice CDA: Js permettant de faire un simple petit jeu tour par tour
