@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# biChocoJS
+Exercice CDA: Réutilisation de l'exo 9 (ChocoJS) & ajout d'un calcul et de l'affichage du résultat
