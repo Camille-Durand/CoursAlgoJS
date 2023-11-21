@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# TasksJS
+Exercice CDA: Js permettant de gérer des tâches
