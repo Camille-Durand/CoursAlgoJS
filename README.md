@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# ListenerJS
+Exercice CDA: Js permettant de récup email & password et de vérifier leur validité
