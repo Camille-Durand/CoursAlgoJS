@@ -1,5 +1,5 @@
 # CoursJS
-### CDA: divers exercices de JS
+### CDA: divers exercices en JavaScript (+ HTML)
 
 ## Partie I: Algo
 - Exo1: AlgoJS
