@@ -55,7 +55,6 @@ function updateTask(e) {
     }
 }
 
-
 function reload() {
     window.location.reload();
 }
