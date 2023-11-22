@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# AdresseJS
+Exercice CDA: JS permettant de calculer la distance entre 2 villes
