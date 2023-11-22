@@ -41,6 +41,7 @@ function updateTask(e) {
         console.log(getValue);
         const input = document.createElement('input');
         input.type = "text";
+        input.style.marginTop = "15px";
         e.parentNode.replaceChild(input,e.parentNode.firstChild);
         input.value = getValue;
         statut = false;
