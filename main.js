@@ -9,19 +9,19 @@ function townListener() {
 
                         let para = document.querySelectorAll('p');
 
-                        let error = response.status;
-                        if(error == 404) {
+                        let statut = response.status;
+                        if(statut == 404) {
                             para[0].textContent = "Cette ville n'existe pas"
                             para[1].textContent = "";
                             para[2].textContent = "";
+                        } else if (statut == 200) {
+                            let town = json.name;
+                            let temperature = json.main.temp -273.1;
+                            let weather = json.weather[0].main;
+
+                            para[0].textContent = "Town: " + town;
+                            para[1].textContent = "Temperature: " + temperature.toFixed(2) + "°c";
+                            para[2].textContent = "Weather: " + weather;
                         }
-
-                        let town = json.name;
-                        let temperature = json.main.temp -273.1;
-                        let weather = json.weather[0].main;
-
-                        para[0].textContent = "Town: " + town;
-                        para[1].textContent = "Temperature: " + temperature.toFixed(2) + "°c";
-                        para[2].textContent = "Weather: " + weather;
                     });
                 }
