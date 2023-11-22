@@ -33,7 +33,7 @@
 - Exo25: UpdateTasksJS
 - Exo26: AllTasksJS
 
-## PArtie IV: API & Fetch
+## Partie IV: API & Fetch
 - Exo27: MeteoJS
   
 #
