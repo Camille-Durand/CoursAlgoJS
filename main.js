@@ -37,7 +37,7 @@ function delAllTask() {
 let statut = true;
 function updateTask(e) {
     if(statut == true) {
-        const getValue = e.parentNode.firstChild.value;
+        const getValue = e.parentNode.firstChild.textContent;
         console.log(getValue);
         const input = document.createElement('input');
         input.type = "text";
