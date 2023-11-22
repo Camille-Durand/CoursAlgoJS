@@ -1,9 +1,5 @@
 function addTask() {
     let getDiv = document.getElementById('tasks');
-    // let getTask = document.getElementById('task').value;
-    // const para = document.createElement('p');
-    // para.textContent = getTask;
-    // getDiv.appendChild(para);
 
     const div = document.createElement('div');
     getDiv.appendChild(div);
@@ -30,13 +26,6 @@ function deleteTask(e) {
     e.parentNode.remove();
 }
 
-function updateTask(e) {
-    let newTask = document.getElementById('task').value;
-    e.parentNode.firstChild.textContent = newTask;
-}
-
-
-
 function delAllTask() {
     const all = document.getElementById('tasks');
 
@@ -44,6 +33,27 @@ function delAllTask() {
         all.removeChild(all.firstChild);
     }
 }
+
+let statut = true;
+function updateTask(e) {
+    if(statut == true) {
+        const getValue = e.parentNode.firstChild.value;
+        console.log(getValue);
+        const input = document.createElement('input');
+        input.type = "text";
+        e.parentNode.replaceChild(input,e.parentNode.firstChild);
+        input.value = getValue;
+        statut = false;
+
+    } else {
+        const getValueFalse = e.parentNode.firstChild.value;
+        let paraFalse = document.createElement('p');
+        e.parentNode.replaceChild(paraFalse,e.parentNode.firstChild);
+        paraFalse.textContent = getValueFalse;
+        statut = true;
+    }
+}
+
 
 function reload() {
     window.location.reload();
