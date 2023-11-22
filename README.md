@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# AllTasks
+Exercice CDA: Réutilisation de l'exo25 (UpdateTasksJS) et utilisation de clés
