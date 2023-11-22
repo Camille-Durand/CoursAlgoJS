@@ -1,2 +1,2 @@
-# CoursAlgoJS
-CDA: 12 exercices de JS sur l'algo
+# MeteoJS
+Exercice CDA: JS permettant de récupérer la météo grâce à un API
